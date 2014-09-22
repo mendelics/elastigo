@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"github.com/araddon/gou"
 	"github.com/bmizerany/assert"
-	"github.com/mattbaird/elastigo/core"
+	"github.com/mendelics/elastigo/core"
 	"log"
 	"testing"
 )

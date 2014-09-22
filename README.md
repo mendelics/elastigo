@@ -9,7 +9,7 @@ by importing through gopkg.in using the v1 import path. The rest of the README f
 
 ## README
 
-A Go (Golang) based Elasticsearch client, implements core api for Indexing and searching.   GoDoc http://godoc.org/github.com/mattbaird/elastigo
+A Go (Golang) based Elasticsearch client, implements core api for Indexing and searching.   GoDoc http://godoc.org/github.com/mendelics/elastigo
 
 
 To get the Chef based Vagrantfile working, be sure to pull like so::
@@ -70,8 +70,8 @@ Adding content to Elasticsearch
 
 examples:
 ```go
-import "github.com/mattbaird/elastigo/api"
-import "github.com/mattbaird/elastigo/core"
+import "github.com/mendelics/elastigo/api"
+import "github.com/mendelics/elastigo/core"
 
 type Tweet struct {
   User     string    `json:"user"`
@@ -112,8 +112,8 @@ Search DSL Examples
 A Faceted, ranged Search using the `Search DSL` :
 
 ```go
-import "github.com/mattbaird/elastigo/api"
-import "github.com/mattbaird/elastigo/core"
+import "github.com/mendelics/elastigo/api"
+import "github.com/mendelics/elastigo/core"
 
 // Set the Elasticsearch Host to Connect to
 api.Domain = "localhost"
@@ -175,8 +175,8 @@ Adding content to Elasticsearch in Bulk
 example:
 
 ```go
-import "github.com/mattbaird/elastigo/api"
-import "github.com/mattbaird/elastigo/core"
+import "github.com/mendelics/elastigo/api"
+import "github.com/mendelics/elastigo/core"
 
 // Set the Elasticsearch Host to Connect to
 api.Domain = "localhost"
