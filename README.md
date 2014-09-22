@@ -1,14 +1,16 @@
-elastigo
---------
-[![Total views](https://sourcegraph.com/api/repos/github.com/mattbaird/elastigo/counters/views.png)](https://sourcegraph.com/github.com/mattbaird/elastigo)
+elastigo v1.0
+-------------
 
-[![Build Status][1]][2]
+# Important notice about this fork
 
-[1]: https://drone.io/github.com/mattbaird/elastigo/status.png
-[2]: https://drone.io/github.com/mattbaird/elastigo/latest
+This fork is fixed on v1.0, ignoring all changes made for the new version of the original elastigo. This was done so that our import paths can reference
+this import path and we can recreate our Godeps at will, running `go get -u` along the way without worrying that things will break. This could also be solved
+by importing through gopkg.in using the v1 import path. The rest of the README follows as normal.
 
+## README
 
 A Go (Golang) based Elasticsearch client, implements core api for Indexing and searching.   GoDoc http://godoc.org/github.com/mattbaird/elastigo
+
 
 To get the Chef based Vagrantfile working, be sure to pull like so::
 
