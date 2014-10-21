@@ -24,7 +24,7 @@ import (
 
 // VerboseLogging controls whether elastigo will log more information
 // about its actions. Set it to false for less logging.
-var VerboseLogging bool = true;
+var VerboseLogging bool = false
 
 // Index adds or updates a typed JSON document in a specific index, making it searchable, creating an index
 // if it did not exist.
